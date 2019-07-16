@@ -22,7 +22,7 @@ class Contact extends React.Component  {
         e.preventDefault()
 
           const  {name, email,message } = this.state
-          const form =  axios.post('/api',
+        axios.post('/api',
           {
             name:name,
             email:email,

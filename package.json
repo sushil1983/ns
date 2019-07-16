@@ -1,6 +1,6 @@
 {
   
-    "proxy":"http://localhost:3000",
+    "proxy":"http://localhost:4000",
   
   "dependencies": {
     
@@ -18,7 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "server": "nodemon index.js",
-    "client": "npm run start ",
+    "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "eslintConfig": {
