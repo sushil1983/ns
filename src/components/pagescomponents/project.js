@@ -42,12 +42,12 @@ class Project extends React.Component  {
 		<div className="row portfolio-gallery">
 			<div className="col-lg-4 col-md-6">
 				<div className="portflio-item position-relative mb-4">
-					<a href="images/portfolio/1.jpg" className="popup-gallery">
-						<img src="images/portfolio/1.jpg" alt=""  className="img-fluid w-100"/>
+					<a href="images/portfolio/1.png" className="popup-gallery">
+						<img src="images/portfolio/1.png" alt=""  className="img-fluid w-100"/>
 
 						<i className="ti-plus overlay-item"></i>
 						<div className="portfolio-item-content">
-							<h3 className="mb-0 text-white">Project california</h3>
+							<h3 className="mb-0 text-white">Project Matrimony</h3>
 							<p className="text-white-50">Web Development</p>
 						</div>
 					</a>
@@ -56,12 +56,12 @@ class Project extends React.Component  {
 
 			<div className="col-lg-4 col-md-6">
 				<div className="portflio-item position-relative mb-4">
-					<a href="images/portfolio/2.jpg" className="popup-gallery">
-						<img src="images/portfolio/2.jpg" alt="" className="img-fluid w-100"/>
+					<a href="images/portfolio/2.png" target="_blank" className="popup-gallery">
+						<img src="images/portfolio/2.png" alt="" className="img-fluid w-100"/>
 
 						<i className="ti-plus overlay-item"></i>
 						<div className="portfolio-item-content">
-							<h3 className="mb-0 text-white">Project california</h3>
+							<h3 className="mb-0 text-white">Project London & Kent</h3>
 							<p className="text-white-50">Web Development</p>
 						</div>
 					</a>
@@ -70,59 +70,20 @@ class Project extends React.Component  {
 
 			<div className="col-lg-4 col-md-6">
 				<div className="portflio-item position-relative mb-4">
-					<a href="images/portfolio/3.jpg" className="popup-gallery">
-						<img src="images/portfolio/3.jpg" alt="" className="img-fluid w-100"/>
+					<a href="images/portfolio/3.png" className="popup-gallery">
+						<img src="images/portfolio/3.png" alt="" className="img-fluid w-100"/>
 
 						<i className="ti-plus overlay-item"></i>
 						<div className="portfolio-item-content">
-							<h3 className="mb-0 text-white">Project california</h3>
+							<h3 className="mb-0 text-white">Project Education</h3>
 							<p className="text-white-50">Web Development</p>
 						</div>
 					</a>
 				</div>
 			</div>
 
-			<div className="col-lg-4 col-md-6">
-				<div className="portflio-item position-relative mb-4">
-					<a href="images/portfolio/4.jpg" className="popup-gallery">
-						<img src="images/portfolio/4.jpg" alt="" className="img-fluid w-100"/>
 
-						<i className="ti-plus overlay-item"></i>
-						<div className="portfolio-item-content">
-							<h3 className="mb-0 text-white">Project california</h3>
-							<p className="text-white-50">Web Development</p>
-						</div>
-					</a>
-				</div>
-			</div>
-
-			<div className="col-lg-4 col-md-6">
-				<div className="portflio-item position-relative  mb-4">
-					<a href="images/portfolio/5.jpg" className="popup-gallery">
-						<img src="images/portfolio/5.jpg" alt="" className="img-fluid w-100"/>
-
-						<i className="ti-plus overlay-item"></i>
-						<div className="portfolio-item-content">
-							<h3 className="mb-0 text-white">Project california</h3>
-							<p className="text-white-50">Web Development</p>
-						</div>
-					</a>
-				</div>
-			</div>
-
-			<div className="col-lg-4 col-md-6">
-				<div className="portflio-item position-relative mb-4">
-					<a href="images/portfolio/6.jpg" className="popup-gallery">
-						<img src="images/portfolio/6.jpg" alt="" className="img-fluid w-100"/>
-						
-						<i className="ti-plus overlay-item"></i>
-						<div className="portfolio-item-content">
-							<h3 className="mb-0 text-white">Project california</h3>
-							<p className="text-white-50">Web Development</p>
-						</div>
-					</a>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 </section>

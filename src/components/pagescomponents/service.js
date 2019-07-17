@@ -42,7 +42,7 @@ class Service extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-desktop"></i>
 					<h4 className="mb-3">Web development.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>We provide Unqiuq Eye Catching desing and user friendly features to your web Applications</p>
 				</div>
 			</div>
 
@@ -50,7 +50,7 @@ class Service extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-layers"></i>
 					<h4 className="mb-3">Interface Design.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>We deal with all kind of Interface design all features are User friendly </p>
 				</div>
 			</div>
 
@@ -58,7 +58,7 @@ class Service extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-bar-chart"></i>
 					<h4 className="mb-3">Business Consulting.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>we provide you best technology Stack to develop your application and consult your business in marketing as well </p>
 				</div>
 			</div>
 
@@ -66,7 +66,7 @@ class Service extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-vector"></i>
 					<h4 className="mb-3">Branding.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>we design unique logos and provide a Professional branding for your Business</p>
 				</div>
 			</div>
 
@@ -74,7 +74,7 @@ class Service extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-android"></i>
 					<h4 className="mb-3">App development.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>We design and develop your mobile application on Android and Ios in native as well Hybrid technology</p>
 				</div>
 			</div>
 
@@ -82,33 +82,11 @@ class Service extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-pencil-alt"></i>
 					<h4 className="mb-3">Content creation.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>we write and promote digital content for your product which helps to grow your audience day by day.</p>
 				</div>
 			</div>
 
-			<div className="col-lg-4 col-md-6 col-sm-6">
-				<div className="service-item">
-					<i className="ti-layers"></i>
-					<h4 className="mb-3">Interface Design.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
-				</div>
-			</div>
-
-			<div className="col-lg-4 col-md-6 col-sm-6">
-				<div className="service-item">
-					<i className="ti-bar-chart"></i>
-					<h4 className="mb-3">Business Consulting.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
-				</div>
-			</div>
-
-			<div className="col-lg-4 col-md-6 col-sm-6">
-				<div className="service-item">
-					<i className="ti-vector"></i>
-					<h4 className="mb-3">Branding.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 </section>
@@ -123,7 +101,7 @@ class Service extends React.Component  {
 					<h2 className="mt-2 text-white">Entrust Your Project to Our Best Team of Professionals</h2>
 				</div>
 				<div className="col-lg-4">
-					<a href="contact.html" className="btn btn-main btn-round-full float-right">Contact Us</a>
+					< Link to="/Contact" className="btn btn-main btn-round-full float-right">Contact Us</ Link>
 				</div>
 			</div>
 		</div>

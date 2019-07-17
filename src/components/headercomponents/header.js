@@ -15,15 +15,15 @@ class Header extends React.Component  {
 			<div className="row justify-content-between align-items-center">
 				<div className="col-lg-2 col-md-4">
 					<div className="header-top-socials text-center text-lg-left text-md-left">
-          <Link to={'https://www.facebook.com/'}   target="_blank"><i className="ti-facebook"></i></Link>
-          <Link to={'https://www.twitter.com/'}  target="_blank"><i className="ti-twitter"></i></Link>
-          <Link to={'https://www.linkedin.com/'}  target="_blank"><i className="ti-linkedin"></i></Link>
+          <a href={'https://www.facebook.com/sushilpathariya'}   target="_blank"><i className="ti-facebook"></i></a>
+          <a href={'https://twitter.com/sushilpathariya'}  target="_blank"><i className="ti-twitter"></i></a>
+          <a href={'https://www.linkedin.com/in/sushilpathariya/'}  target="_blank"><i className="ti-linkedin"></i></a>
 					</div>
 				</div>
 				<div className="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
 					<div className="header-top-info">
-						<a href="tel:+23-345-67890">Call Us : <span>+23-345-67890</span></a>
-						<a href="mailto:support@gmail.com" ><i className="fa fa-envelope mr-2"></i><span>support@gmail.com</span></a>
+						<a className="fa fa-whatsapp" href="tel:+919111621119">Call Us || whatsapp : <span>+919111621119</span></a>
+						<a href="mailto:sushilpathariya@gmail.com" ><i className="fa fa-envelope mr-2"></i><span>sushilpathariya@gmail.com</span></a>
 					</div>
 				</div>
 			</div>

@@ -2,6 +2,7 @@ import React  from 'react'
 import { Link } from 'react-router-dom';
 
 import axios from 'axios';
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 
 class Contact extends React.Component  {
 
@@ -20,9 +21,11 @@ class Contact extends React.Component  {
 
      handleFormSubmit = (e) => {
         e.preventDefault()
-
+        e.target.reset()
+  
+        
           const  {name, email,message } = this.state
-        axios.post('/api',
+        axios.post('http://localhost:4000/api',
           {
             name:name,
             email:email,
@@ -34,6 +37,7 @@ class Contact extends React.Component  {
         .catch(error => {
             console.log(error.response)
         });
+       
 
              };
 
@@ -113,25 +117,25 @@ class Contact extends React.Component  {
 
                     <ul className="address-block list-unstyled">
                         <li>
-                            <i className="ti-direction mr-3"></i>North Main Street,Brooklyn Australia
+                            <i className="ti-direction mr-3"></i>jaiprakash Nagar,Nagpur Road Itarsi
                         </li>
                         <li>
-                            <i className="ti-email mr-3"></i>Email: contact@mail.com
+                            <i className="ti-email mr-3"></i>Email: sushilpathariya@mail.com
                         </li>
                         <li>
-                            <i className="ti-mobile mr-3"></i>Phone:+88 01672 506 744
+                            <i className="ti-mobile mr-3"></i>Phone:+919111621119
                         </li>
                     </ul>
 
                     <ul className="social-icons list-inline mt-5">
                         <li className="list-inline-item">
-                            <a href="http://www.themefisher.com"><i className="fab fa-facebook-f"></i></a>
+                            <a href="http://www.facebook.com/sushilpathariya"><i className="fab fa-facebook-f"></i></a>
                         </li>
                         <li className="list-inline-item">
-                            <a href="http://www.themefisher.com"><i className="fab fa-twitter"></i></a>
+                            <a href="http://www.twitter.com/sushilpathariya"><i className="fab fa-twitter"></i></a>
                         </li>
                         <li className="list-inline-item">
-                            <a href="http://www.themefisher.com"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="http://www.linkedin.com/in/sushilpathariya"><i className="fab fa-linkedin-in"></i></a>
                         </li>
                     </ul>
                 </div>

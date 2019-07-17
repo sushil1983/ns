@@ -69,7 +69,7 @@ class HomePage extends React.Component  {
 					<h2 className="mt-3 mb-4 position-relative content-title">We are dynamic team of creative people</h2>
 					<div className="about-content">
 						<h4 className="mb-3 position-relative">We are Perfect Solution</h4>
-						<p className="mb-5">We provide consulting services in the area of IFRS and management reporting, helping companies to reach their highest level. We optimize business processes, making them easier.</p>
+						<p className="mb-5">We provide consulting services in the area of Software and management reporting, helping companies to reach their highest level. We optimize business processes, making them easier.</p>
 
 						<Link to={'/'} className="btn btn-main btn-round-full">Get started</Link>
 					</div>
@@ -128,7 +128,7 @@ class HomePage extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-desktop"></i>
 					<h4 className="mb-3">Web development.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>We provide Unqiuq Eye Catching desing and user friendly features to your web Applications</p>
 				</div>
 			</div>
 
@@ -136,7 +136,7 @@ class HomePage extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-layers"></i>
 					<h4 className="mb-3">Interface Design.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>We deal with all kind of Interface design all features are User friendly </p>
 				</div>
 			</div>
 
@@ -144,37 +144,38 @@ class HomePage extends React.Component  {
 				<div className="service-item mb-5">
 					<i className="ti-bar-chart"></i>
 					<h4 className="mb-3">Business Consulting.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>we provide you best technology Stack to develop your application and consult your business in marketing as well </p>
 				</div>
 			</div>
 
 			<div className="col-lg-4 col-md-6 col-sm-6">
-				<div className="service-item mb-5 mb-lg-0">
+				<div className="service-item mb-5">
 					<i className="ti-vector"></i>
 					<h4 className="mb-3">Branding.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>we design unique logos and provide a Professional branding for your Business</p>
 				</div>
 			</div>
 
 			<div className="col-lg-4 col-md-6 col-sm-6">
-				<div className="service-item mb-5 mb-lg-0">
+				<div className="service-item mb-5">
 					<i className="ti-android"></i>
 					<h4 className="mb-3">App development.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>We design and develop your mobile application on Android and Ios in native as well Hybrid technology</p>
 				</div>
 			</div>
 
 			<div className="col-lg-4 col-md-6 col-sm-6">
-				<div className="service-item mb-5 mb-lg-0">
+				<div className="service-item mb-5">
 					<i className="ti-pencil-alt"></i>
 					<h4 className="mb-3">Content creation.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<p>we write and promote digital content for your product which helps to grow your audience day by day.</p>
 				</div>
 			</div>
+
+			
 		</div>
 	</div>
 </section>
-
 <section className="section cta">
 	<div className="container">
 		<div className="row">
@@ -183,164 +184,18 @@ class HomePage extends React.Component  {
 					<span className="h6 text-color">We create for you</span>
 					<h2 className="mt-2 mb-4">Entrust Your Project to Our Best Team of Professionals</h2>
 					<p className="lead mb-4">Have any project on mind? For immidiate support :</p>
-					<h3><i className="ti-mobile mr-3 text-color"></i>+23 876 65 455</h3>
+					<h3><i className="ti-mobile mr-3 text-color"></i>+919111621119</h3>
+					
 				</div>
+				
 			</div>
 		</div>
 	</div>
+	
 </section>
 
-<section className="section testimonial">
-	<div className="container">
-		<div className="row">
-			<div className="col-lg-7 ">
-				<div className="section-title">
-					<span className="h6 text-color">Clients testimonial</span>
-					<h2 className="mt-3 content-title">Check what's our clients say about us</h2>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div className="container">
-		<div className="row testimonial-wrap">
-			<div className="testimonial-item position-relative">
-				<i className="ti-quote-left text-color"></i>
 
-				<div className="testimonial-item-content">
-					<p className="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti facilis blanditiis.</p>
-
-					<div className="testimonial-author">
-						<h5 className="mb-0 text-capitalize">Thomas Johnson</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div className="testimonial-item position-relative">
-				<i className="ti-quote-left text-color"></i>
-
-				<div className="testimonial-item-content">
-					<p className="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-					<div className="testimonial-author">
-						<h5 className="mb-0 text-capitalize">Mickel hussy</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div className="testimonial-item position-relative">
-				<i className="ti-quote-left text-color"></i>
-
-				<div className="testimonial-item-content">
-					<p className="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti.</p>
-
-					<div className="testimonial-author">
-						<h5 className="mb-0 text-capitalize">James Watson</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div className="testimonial-item position-relative">
-				<i className="ti-quote-left text-color"></i>
-
-				<div className="testimonial-item-content">
-					<p className="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-					<div className="testimonial-author">
-						<h5 className="mb-0 text-capitalize">Mickel hussy</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section className="section latest-blog bg-2">
-	<div className="container">
-		<div className="row justify-content-center">
-			<div className="col-lg-7 text-center">
-				<div className="section-title">
-					<span className="h6 text-color">Latest News</span>
-					<h2 className="mt-3 content-title text-white">Latest articles to enrich knowledge</h2>
-				</div>
-			</div>
-		</div>
-
-		<div className="row justify-content-center">
-			<div className="col-lg-4 col-md-6 mb-5">
-				<div className="card bg-transparent border-0">
-					<img src="images/blog/1.jpg" alt="" className="img-fluid rounded"/>
-
-					<div className="card-body mt-2">
-						<div className="blog-item-meta">
-							<Link to={'/'} className="text-white-50">Design<span className="ml-2 mr-2">/</span></Link>
-							<Link to={'/'}  className="text-white-50">Ui/Ux<span className="ml-2">/</span></Link>
-							<Link to={'/'} className="text-white-50 ml-2"><i className="fa fa-user mr-2"></i>admin</Link>
-						</div> 
-
-						<h3 className="mt-3 mb-5 lh-36"><Link to={'/'} className="text-white ">How to improve design with typography?</Link></h3>
-
-						<Link to="blog-single.html" className="btn btn-small btn-solid-border btn-round-full text-white">Learn More</Link>
-					</div>
-				</div>
-			</div>
-
-			<div className="col-lg-4 col-md-6 mb-5">
-				<div className="card border-0 bg-transparent">
-					<img src="images/blog/2.jpg" alt="" className="img-fluid rounded"/>
-
-					<div className="card-body mt-2">
-						<div className="blog-item-meta">
-							<Link to={'/'} className="text-white-50">Design<span className="ml-2 mr-2">/</span></Link>
-							<Link to={'/'}  className="text-white-50">Ui/Ux<span className="ml-2">/</span></Link>
-							<Link to={'/'} className="text-white-50 ml-2"><i className="fa fa-user mr-2"></i>admin</Link>
-						</div>  
-
-						<h3 className="mt-3 mb-5 lh-36"><Link to={'/'} className="text-white">Interactivity design may connect consumer</Link></h3>
-
-						<Link to="blog-single.html" className="btn btn-small btn-solid-border btn-round-full text-white">Learn More</Link>
-					</div>
-				</div>
-			</div>
-
-			<div className="col-lg-4 col-md-6 mb-5">
-				<div className="card border-0 bg-transparent">
-					<img src="images/blog/3.jpg" alt="" className="img-fluid rounded"/>
-
-					<div className="card-body mt-2">
-						<div className="blog-item-meta">
-							<Link to={'/'} className="text-white-50">Design<span className="ml-2 mr-2">/</span></Link>
-							<Link to={'/'}  className="text-white-50">Ui/Ux<span className="ml-2">/</span></Link>
-							<Link to={'/'} className="text-white-50 ml-2"><i className="fa fa-user mr-2"></i>admin</Link>
-						</div> 
-
-						<h3 className="mt-3 mb-5 lh-36"><Link to={'/'} className="text-white">Marketing Strategy to bring more affect</Link></h3>
-
-						<Link to="blog-single.html" className="btn btn-small btn-solid-border btn-round-full text-white">Learn More</Link>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section className="mt-70 position-relative">
-	<div className="container">
-	<div className="cta-block-2 bg-gray p-5 rounded border-1">
-		<div className="row justify-content-center align-items-center ">
-			<div className="col-lg-7">
-				<span className="text-color">For Every type business</span>
-				<h2 className="mt-2 mb-4 mb-lg-0">Entrust Your Project to Our Best Team of Professionals</h2>
-			</div>
-			<div className="col-lg-4">
-				<Link to="contact.html" className="btn btn-main btn-round-full float-lg-right ">Contact Us</Link>
-			</div>
-		</div>
-	</div>
-</div>
-
-</section>
 </div>
 
 );
