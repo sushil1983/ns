@@ -36,21 +36,21 @@ class HomePage extends React.Component  {
 				<div className="intro-item mb-5 mb-lg-0"> 
 					<i className="ti-desktop color-one"></i>
 					<h4 className="mt-4 mb-3">Modern & Responsive design</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<p>All the application that we build are compatible with all kind of mobile device .</p>
 				</div>
 			</div>
 			<div className="col-lg-4 col-md-6">
 				<div className="intro-item mb-5 mb-lg-0">
 					<i className="ti-medall color-one"></i> 
-					<h4 className="mt-4 mb-3">Awarded licensed company</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<h4 className="mt-4 mb-3"> licensed company</h4>
+					<p>we are registered company working since from the last 10 years .</p>
 				</div>
 			</div>
 			<div className="col-lg-4 col-md-6">
 				<div className="intro-item">
 					<i className="ti-layers-alt color-one"></i>
 					<h4 className="mt-4 mb-3">Build your website Professionally</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<p>we are team of Professionals and provide you always a great solution .</p>
 				</div>
 			</div> 
 		</div>

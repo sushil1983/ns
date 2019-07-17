@@ -54,19 +54,19 @@ class About extends React.Component  {
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div className="about-info-item mb-4 mb-lg-0">
             <h3 className="mb-3"><span className="text-color mr-2 text-md ">01.</span>Our Mission</h3>
-            <p>To provide Unique and Cost Efficient Product and Services to all our client  .</p>
+            <p>To provide Unique and Cost Efficient Product and Services to all our client, and make a good foot mark in this Software industry  .</p>
           </div>		
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div className="about-info-item mb-4 mb-lg-0">
             <h3 className="mb-3"><span className="text-color mr-2 text-md">02.</span>Vission</h3>
-            <p>To make this worla a better place to Survive with providing unique idea to implement with the IT industry .</p>
+            <p>To make this world a better place to Survive with providing unique idea to implement with the IT industry .</p>
           </div>		
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div className="about-info-item mb-4 mb-lg-0">
             <h3 className="mb-3"><span className="text-color mr-2 text-md">03.</span>Our Approach</h3>
-            <p>We always take project in taking requirement in detail with Agile approach to make the application better .</p>
+            <p>We always take project in taking requirement in detail with Agile approach to make the application better  .</p>
           </div>		
         </div>
       </div>
