@@ -21,6 +21,9 @@ class Contact extends React.Component  {
 
      handleFormSubmit = (e) => {
         e.preventDefault()
+       
+            window.alert("YOUR FORM IS NOT SUBMMITED PLEASE Resubmit or  EMAIL US  THANKS")
+        
         e.target.reset()
   
         
@@ -102,7 +105,7 @@ class Contact extends React.Component  {
                         onChange={this.handleChange}
                         
                         /> </div>
-                    <button className="btn btn-main" >Send Message</button>
+                    <button className="btn btn-main"  >Send Message</button>
                     <div>
                
 </div>
