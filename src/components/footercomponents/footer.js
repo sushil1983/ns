@@ -50,7 +50,7 @@ class Footer extends React.Component  {
 						<h3>Narmada<span>Solution.</span></h3>
 					</div>
 					<h6><a href={"tel:+919111621119" }>9111621119</a></h6>
-					<a href={"mailto:sushilpathariya@gmail.com"}><span className="text-color h4">sushilpathariya@gmail.com</span></a>
+					<a href={"mailto:sushilpathariya@narmadasolution.co.in"}><span className="text-color h4">sushilpathariya@narmadasolution.co.in</span></a>
 				</div>
 			</div>
 		</div>

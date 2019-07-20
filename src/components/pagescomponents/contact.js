@@ -120,10 +120,10 @@ class Contact extends React.Component  {
 
                     <ul className="address-block list-unstyled">
                         <li>
-                            <i className="ti-direction mr-3"></i>jaiprakash Nagar,Nagpur Road Itarsi
+                            <i className="ti-direction mr-3"></i>209-16  D Race Course Road Indore -452001
                         </li>
                         <li>
-                            <i className="ti-email mr-3"></i>Email: sushilpathariya@mail.com
+                            <i className="ti-email mr-3"></i>Email: sushilpathariya@narmadsolution.co.in
                         </li>
                         <li>
                             <i className="ti-mobile mr-3"></i>Phone:+919111621119

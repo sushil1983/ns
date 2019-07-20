@@ -23,7 +23,7 @@ class Header extends React.Component  {
 				<div className="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
 					<div className="header-top-info">
 						<a className="fa fa-whatsapp" href="tel:+919111621119">Call Us || whatsapp : <span>+919111621119</span></a>
-						<a href="mailto:sushilpathariya@gmail.com" ><i className="fa fa-envelope mr-2"></i><span>sushilpathariya@gmail.com</span></a>
+						<a href="mailto:sushilpathariya@narmadasolution.co.in" ><i className="fa fa-envelope mr-2"></i><span>sushilpathariya@narmadasolution.co.in</span></a>
 					</div>
 				</div>
 			</div>
